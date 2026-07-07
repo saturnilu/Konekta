@@ -1,0 +1,17 @@
+# env
+backend/.env
+.env
+
+# dependencies (backend/node_modules kamu itu 61MB!)
+node_modules/
+
+# build output
+backend/dist/
+
+# flutter build artifacts (yg .gitignore flutter-nya udah handle sbenernya, tp double check)
+konekta/.dart_tool/
+konekta/build/
+konekta/.flutter-plugins-dependencies
+
+# OS junk
+.DS_Store
